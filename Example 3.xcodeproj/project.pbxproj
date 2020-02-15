@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		1E243A8823F7A3440042FD91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243A8723F7A3440042FD91 /* AppDelegate.swift */; };
 		1E243A8A23F7A3440042FD91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243A8923F7A3440042FD91 /* SceneDelegate.swift */; };
-		1E243A8C23F7A3440042FD91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243A8B23F7A3440042FD91 /* ViewController.swift */; };
 		1E243A8F23F7A3440042FD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E243A8D23F7A3440042FD91 /* Main.storyboard */; };
 		1E243A9123F7A3510042FD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E243A9023F7A3510042FD91 /* Assets.xcassets */; };
 		1E243A9423F7A3510042FD91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E243A9223F7A3510042FD91 /* LaunchScreen.storyboard */; };
 		1E243A9F23F7A3510042FD91 /* Example_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243A9E23F7A3510042FD91 /* Example_3Tests.swift */; };
 		1E243AAA23F7A3520042FD91 /* Example_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243AA923F7A3520042FD91 /* Example_3UITests.swift */; };
+		1E243AB823F7A5340042FD91 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243AB723F7A5340042FD91 /* BooksViewController.swift */; };
+		1E243ABA23F7A53F0042FD91 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243AB923F7A53F0042FD91 /* BookViewController.swift */; };
+		1E243ABC23F7A54C0042FD91 /* NetworkRequest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243ABB23F7A54C0042FD91 /* NetworkRequest3.swift */; };
+		1E243ABE23F7A55E0042FD91 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243ABD23F7A55E0042FD91 /* Books.swift */; };
+		1E243AC023F7A56E0042FD91 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E243ABF23F7A56E0042FD91 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,6 @@
 		1E243A8423F7A3440042FD91 /* Example 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E243A8723F7A3440042FD91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E243A8923F7A3440042FD91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E243A8B23F7A3440042FD91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E243A8E23F7A3440042FD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E243A9023F7A3510042FD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E243A9323F7A3510042FD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		1E243AA523F7A3520042FD91 /* Example 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E243AA923F7A3520042FD91 /* Example_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_3UITests.swift; sourceTree = "<group>"; };
 		1E243AAB23F7A3520042FD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E243AB723F7A5340042FD91 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		1E243AB923F7A53F0042FD91 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		1E243ABB23F7A54C0042FD91 /* NetworkRequest3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest3.swift; sourceTree = "<group>"; };
+		1E243ABD23F7A55E0042FD91 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		1E243ABF23F7A56E0042FD91 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				1E243A8723F7A3440042FD91 /* AppDelegate.swift */,
 				1E243A8923F7A3440042FD91 /* SceneDelegate.swift */,
-				1E243A8B23F7A3440042FD91 /* ViewController.swift */,
 				1E243A8D23F7A3440042FD91 /* Main.storyboard */,
 				1E243A9023F7A3510042FD91 /* Assets.xcassets */,
 				1E243A9223F7A3510042FD91 /* LaunchScreen.storyboard */,
 				1E243A9523F7A3510042FD91 /* Info.plist */,
+				1E243AB723F7A5340042FD91 /* BooksViewController.swift */,
+				1E243AB923F7A53F0042FD91 /* BookViewController.swift */,
+				1E243ABB23F7A54C0042FD91 /* NetworkRequest3.swift */,
+				1E243ABD23F7A55E0042FD91 /* Books.swift */,
+				1E243ABF23F7A56E0042FD91 /* BookTableViewCell.swift */,
 			);
 			path = "Example 3";
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E243A8C23F7A3440042FD91 /* ViewController.swift in Sources */,
+				1E243ABE23F7A55E0042FD91 /* Books.swift in Sources */,
 				1E243A8823F7A3440042FD91 /* AppDelegate.swift in Sources */,
+				1E243ABA23F7A53F0042FD91 /* BookViewController.swift in Sources */,
+				1E243AC023F7A56E0042FD91 /* BookTableViewCell.swift in Sources */,
 				1E243A8A23F7A3440042FD91 /* SceneDelegate.swift in Sources */,
+				1E243ABC23F7A54C0042FD91 /* NetworkRequest3.swift in Sources */,
+				1E243AB823F7A5340042FD91 /* BooksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
